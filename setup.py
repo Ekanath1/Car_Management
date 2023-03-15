@@ -9,9 +9,9 @@ from car_management_system import __version__ as version
 setup(
 	name="car_management_system",
 	version=version,
-	description="Car Managemet System",
+	description="Car Management System Details",
 	author="Ekanath",
-	author_email="eknathbiradar@gmail.com",
+	author_email="eknath@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
