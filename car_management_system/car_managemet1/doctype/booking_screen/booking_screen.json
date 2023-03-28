@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-15 22:43:25.943538",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "car_book_for_days",
+  "car_details_section",
+  "car_details",
+  "total_rent"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User Management"
+  },
+  {
+   "fieldname": "car_details_section",
+   "fieldtype": "Section Break",
+   "label": "Car Details"
+  },
+  {
+   "fieldname": "total_rent",
+   "fieldtype": "Currency",
+   "label": "Total Rent"
+  },
+  {
+   "fieldname": "car_details",
+   "fieldtype": "Table",
+   "label": "Car Details",
+   "options": "Car Details"
+  },
+  {
+   "fieldname": "car_book_for_days",
+   "fieldtype": "Int",
+   "label": "Car Book For Days"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-03-21 17:39:25.120602",
+ "modified_by": "Administrator",
+ "module": "Car Managemet1",
+ "name": "Booking Screen",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

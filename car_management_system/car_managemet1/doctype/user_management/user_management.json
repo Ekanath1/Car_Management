@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2023-03-15 22:18:59.590185",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "age",
+  "licence_number",
+  "full_name",
+  "sex",
+  "user_status",
+  "car_booked"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "licence_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Licence Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Select",
+   "label": "Sex",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "user_status",
+   "fieldtype": "Select",
+   "label": "User Status",
+   "options": "Active\nInactive\nUsing Car"
+  },
+  {
+   "fieldname": "car_booked",
+   "fieldtype": "Data",
+   "label": "Car Booked "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-21 12:33:08.860604",
+ "modified_by": "Administrator",
+ "module": "Car Managemet1",
+ "name": "User Management",
+ "name_case": "Title Case",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

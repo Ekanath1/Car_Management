@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:car_model",
+ "creation": "2023-03-15 19:35:26.959912",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "car_make",
+  "car_model",
+  "car_type",
+  "car_transmission",
+  "registration_number",
+  "car_rate_per_day",
+  "car_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "car_make",
+   "fieldtype": "Data",
+   "label": "Car Make"
+  },
+  {
+   "fieldname": "car_type",
+   "fieldtype": "Select",
+   "label": "Car Type",
+   "options": "SUV\nSedan\nHatchback"
+  },
+  {
+   "fieldname": "car_transmission",
+   "fieldtype": "Data",
+   "label": "Car Transmission"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "label": "Registration Number"
+  },
+  {
+   "fieldname": "car_rate_per_day",
+   "fieldtype": "Currency",
+   "label": "Car Rate Per Day"
+  },
+  {
+   "fieldname": "car_status",
+   "fieldtype": "Select",
+   "label": "Car Status",
+   "options": "Available\nIssued",
+   "read_only": 1
+  },
+  {
+   "fieldname": "car_model",
+   "fieldtype": "Data",
+   "label": "Car Model",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-21 11:16:24.464047",
+ "modified_by": "Administrator",
+ "module": "Car Managemet1",
+ "name": "Car",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
